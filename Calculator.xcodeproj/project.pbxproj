@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0F21AA1E3952FB00D7FC7D /* CalcKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F21A91E3952FB00D7FC7D /* CalcKitTests.swift */; };
+		0A0F21AC1E3952FB00D7FC7D /* CalcKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC556B01E392A40009EB7D6 /* CalcKit.framework */; };
+		0A45AFB81E3AAE7800194EB5 /* Calculator+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A45AFB61E3AAE2300194EB5 /* Calculator+Private.m */; };
+		0AC556B51E392A41009EB7D6 /* CalcKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC556B31E392A41009EB7D6 /* CalcKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AC556BB1E392A64009EB7D6 /* Calculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC556B91E392A64009EB7D6 /* Calculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AC556BC1E392A64009EB7D6 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC556BA1E392A64009EB7D6 /* Calculator.m */; };
+		0AC556C31E3933F4009EB7D6 /* CalcUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC556C11E3933F4009EB7D6 /* CalcUtil.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0AC556C41E3933F4009EB7D6 /* CalcUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC556C21E3933F4009EB7D6 /* CalcUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A0F21AD1E3952FB00D7FC7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AC556A51E392A1D009EB7D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AC556AF1E392A40009EB7D6;
+			remoteInfo = CalcKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A0F21A71E3952FB00D7FC7D /* CalcKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0F21A91E3952FB00D7FC7D /* CalcKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcKitTests.swift; sourceTree = "<group>"; };
+		0A0F21B31E3954A800D7FC7D /* CalcKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalcKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		0A45AFB51E3AAC3B00194EB5 /* Calculator+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator+Private.h"; sourceTree = "<group>"; };
+		0A45AFB61E3AAE2300194EB5 /* Calculator+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Calculator+Private.m"; sourceTree = "<group>"; };
+		0AC556B01E392A40009EB7D6 /* CalcKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CalcKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC556B31E392A41009EB7D6 /* CalcKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcKit.h; sourceTree = "<group>"; };
+		0AC556B91E392A64009EB7D6 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		0AC556BA1E392A64009EB7D6 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		0AC556C11E3933F4009EB7D6 /* CalcUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcUtil.h; sourceTree = "<group>"; };
+		0AC556C21E3933F4009EB7D6 /* CalcUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A0F21A41E3952FB00D7FC7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0F21AC1E3952FB00D7FC7D /* CalcKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC556AC1E392A40009EB7D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A0F21A81E3952FB00D7FC7D /* CalcKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A0F21A91E3952FB00D7FC7D /* CalcKitTests.swift */,
+				0A0F21B31E3954A800D7FC7D /* CalcKit-Bridging-Header.h */,
+			);
+			path = CalcKitTests;
+			sourceTree = "<group>";
+		};
+		0A45AFB91E3AAEAB00194EB5 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				0A45AFB51E3AAC3B00194EB5 /* Calculator+Private.h */,
+				0A45AFB61E3AAE2300194EB5 /* Calculator+Private.m */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		0A45AFBA1E3AAEB000194EB5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0AC556C11E3933F4009EB7D6 /* CalcUtil.h */,
+				0AC556C21E3933F4009EB7D6 /* CalcUtil.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		0AC556A41E392A1D009EB7D6 = {
+			isa = PBXGroup;
+			children = (
+				0AC556B21E392A41009EB7D6 /* CalcKit */,
+				0A0F21A81E3952FB00D7FC7D /* CalcKitTests */,
+				0AC556B11E392A40009EB7D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AC556B11E392A40009EB7D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AC556B01E392A40009EB7D6 /* CalcKit.framework */,
+				0A0F21A71E3952FB00D7FC7D /* CalcKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AC556B21E392A41009EB7D6 /* CalcKit */ = {
+			isa = PBXGroup;
+			children = (
+				0AC556B31E392A41009EB7D6 /* CalcKit.h */,
+				0AC556BD1E392A94009EB7D6 /* Calculator */,
+			);
+			path = CalcKit;
+			sourceTree = "<group>";
+		};
+		0AC556BD1E392A94009EB7D6 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				0AC556B91E392A64009EB7D6 /* Calculator.h */,
+				0AC556BA1E392A64009EB7D6 /* Calculator.m */,
+				0AC556C01E3933D1009EB7D6 /* Misc */,
+			);
+			name = Calculator;
+			sourceTree = "<group>";
+		};
+		0AC556C01E3933D1009EB7D6 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				0A45AFB91E3AAEAB00194EB5 /* Private */,
+				0A45AFBA1E3AAEB000194EB5 /* Util */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AC556AD1E392A40009EB7D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC556BB1E392A64009EB7D6 /* Calculator.h in Headers */,
+				0AC556B51E392A41009EB7D6 /* CalcKit.h in Headers */,
+				0AC556C31E3933F4009EB7D6 /* CalcUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A0F21A61E3952FB00D7FC7D /* CalcKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0F21B11E3952FB00D7FC7D /* Build configuration list for PBXNativeTarget "CalcKitTests" */;
+			buildPhases = (
+				0A0F21A31E3952FB00D7FC7D /* Sources */,
+				0A0F21A41E3952FB00D7FC7D /* Frameworks */,
+				0A0F21A51E3952FB00D7FC7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A0F21AE1E3952FB00D7FC7D /* PBXTargetDependency */,
+			);
+			name = CalcKitTests;
+			productName = CalcKitTests;
+			productReference = 0A0F21A71E3952FB00D7FC7D /* CalcKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AC556AF1E392A40009EB7D6 /* CalcKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC556B61E392A41009EB7D6 /* Build configuration list for PBXNativeTarget "CalcKit" */;
+			buildPhases = (
+				0AC556AB1E392A40009EB7D6 /* Sources */,
+				0AC556AC1E392A40009EB7D6 /* Frameworks */,
+				0AC556AD1E392A40009EB7D6 /* Headers */,
+				0AC556AE1E392A40009EB7D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalcKit;
+			productName = CalcKit;
+			productReference = 0AC556B01E392A40009EB7D6 /* CalcKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AC556A51E392A1D009EB7D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					0A0F21A61E3952FB00D7FC7D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					0AC556AF1E392A40009EB7D6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0AC556A81E392A1D009EB7D6 /* Build configuration list for PBXProject "Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AC556A41E392A1D009EB7D6;
+			productRefGroup = 0AC556B11E392A40009EB7D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AC556AF1E392A40009EB7D6 /* CalcKit */,
+				0A0F21A61E3952FB00D7FC7D /* CalcKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A0F21A51E3952FB00D7FC7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC556AE1E392A40009EB7D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A0F21A31E3952FB00D7FC7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0F21AA1E3952FB00D7FC7D /* CalcKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC556AB1E392A40009EB7D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC556C41E3933F4009EB7D6 /* CalcUtil.m in Sources */,
+				0AC556BC1E392A64009EB7D6 /* Calculator.m in Sources */,
+				0A45AFB81E3AAE7800194EB5 /* Calculator+Private.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A0F21AE1E3952FB00D7FC7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AC556AF1E392A40009EB7D6 /* CalcKit */;
+			targetProxy = 0A0F21AD1E3952FB00D7FC7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A0F21AF1E3952FB00D7FC7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CalcKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinvitale.CalcKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "CalcKitTests/CalcKit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0A0F21B01E3952FB00D7FC7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CalcKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinvitale.CalcKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "CalcKitTests/CalcKit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0AC556A91E392A1D009EB7D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		0AC556AA1E392A1D009EB7D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0AC556B71E392A41009EB7D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CalcKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinvitale.CalcKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0AC556B81E392A41009EB7D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CalcKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinvitale.CalcKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A0F21B11E3952FB00D7FC7D /* Build configuration list for PBXNativeTarget "CalcKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0F21AF1E3952FB00D7FC7D /* Debug */,
+				0A0F21B01E3952FB00D7FC7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC556A81E392A1D009EB7D6 /* Build configuration list for PBXProject "Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC556A91E392A1D009EB7D6 /* Debug */,
+				0AC556AA1E392A1D009EB7D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC556B61E392A41009EB7D6 /* Build configuration list for PBXNativeTarget "CalcKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC556B71E392A41009EB7D6 /* Debug */,
+				0AC556B81E392A41009EB7D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AC556A51E392A1D009EB7D6 /* Project object */;
+}
